@@ -25,6 +25,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 
 .logo-studio-header{
@@ -49,6 +50,7 @@ color: #000000;
     font-size: 14px;
     line-height: 1.14;
     color: var(--title-text-color);
+    text-decoration: none;
 }
 .nav-list-link:hover,.nav-list-link:focus {
     color: var(--accent-color);
@@ -62,6 +64,7 @@ color: #000000;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 .contacts-link:hover, .contacts-link:focus {
     color: var(--accent-color);
@@ -188,20 +191,23 @@ color: #000000;
 .portfolio-list {
     list-style-type: none;
 }
+.portfolio-link {
+    text-decoration: none;
+}
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
+    
 }
 .portfolio-item {
-    
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-
+    
 }
