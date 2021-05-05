@@ -1,0 +1,69 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --white-text-color:#FFFFFF;
+    --accent-color:#2196F3;
+    --main-background-color:#E5E5E5;
+    --secondary-background-color:#F5F4FA;
+    --header-background-color:#FFFFFF;
+    
+}
+/* цвет шрифта лого #000000; */
+/* цвет телефона и міла в футере color: rgba(255, 255, 255, 0.6); */
+/* ховер на кнопке rgba(255, 255, 255, 0) 100%) */
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+}
+/* логотип  */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-studio-header{
+color: #000000;
+}
+.logo-studio-footer {
+    color: var(--white-text-color);
+}
+.logo-web {
+    color: var(--accent-color);
+}
+
+/* ШАПКА */
+.header {
+    background-color: var(--header-background-color);
+}
+.nav-list {
+    list-style-type: none;
+}
+.nav-list-link {    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-text-color);
+}
+.nav-list-link:hover,.nav-list-link:focus {
+    color: var(--accent-color);
+}
+.contacts {
+    list-style-type: none;
+}
+.contacts-link { 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.contacts-link:hover, .contacts-link:focus {
+    color: var(--accent-color);
+}
+/* ГЛАВНАЯ СТРАНИЦА */
