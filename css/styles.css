@@ -3,7 +3,6 @@
     --title-text-color:#212121;
     --white-text-color:#FFFFFF;
     --accent-color:#2196F3;
-    --main-background-color:#E5E5E5;
     --secondary-background-color:#F5F4FA;
     --header-background-color:#FFFFFF;
     
@@ -112,7 +111,7 @@ color: #000000;
 /* секция наши преимущества */
 
 .advantages {
-    background-color: var(--main-background-color);
+    
 }
 /* .advantages-list {
     
@@ -131,7 +130,7 @@ color: #000000;
 
 /* секция чем мы занимаемся */
 .work {
-    background-color: var(--main-background-color);
+    
 }
 .work-list {
     list-style-type: none;
