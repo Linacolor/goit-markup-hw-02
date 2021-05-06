@@ -158,6 +158,9 @@ color: #000000;
 .footer {
     background-color: #2F303A;
 }
+.address {
+    font-style: normal;
+}
 .address-map {
     font-size: 14px;
     line-height: 1.71;
